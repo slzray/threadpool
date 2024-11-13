@@ -13,5 +13,5 @@ auto result = pool.enqueue([](int answer) { return answer; }, 42);
 std::cout << result.get() << std::endl;
 
 ```
-# refrence
+# Reference
 https://github.com/progschj/ThreadPool
